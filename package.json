@@ -1,6 +1,6 @@
 {
   "name": "inprint-components",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Inprint components",
   "main": "./dist/inprint-components.umd.js",
   "module": "./dist/inprint-components.js",
