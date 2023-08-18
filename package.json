@@ -1,6 +1,6 @@
 {
   "name": "inprint-components",
-  "version": "0.0.1",
+  "version": "0.0.4",
   "description": "Inprint components",
   "main": "./dist/inprint-components.umd.js",
   "module": "./dist/inprint-components.js",
@@ -15,7 +15,7 @@
     "dist",
     "src"
   ],
-  "scripts": {
+  "scripts": {  
     "build": "vite build",
     "dev": "vite",
     "serve": "vite preview"

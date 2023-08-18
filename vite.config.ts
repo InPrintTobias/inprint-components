@@ -8,8 +8,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: "src/index.ts",
-      name: "TestComponent",
-      fileName: "test-component",
+      name: "InPrint Components",
+      fileName: "inprint-components",
     },
     rollupOptions: {
       external: ["vue"],
