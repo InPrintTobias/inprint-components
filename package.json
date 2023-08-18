@@ -1,0 +1,49 @@
+{
+  "name": "inprint-components",
+  "version": "0.0.1",
+  "description": "Inprint components",
+  "main": "./dist/inprint-components.umd.js",
+  "module": "./dist/inprint-components.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/inprint-components.mjs",
+      "require": "./dist/inprint-components.umd.js"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "components",
+    "library"
+  ],
+  "author": "InPrint",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.4",
+    "typescript": "^4.3.5",
+    "vite": "^2.3.7",
+    "vite-plugin-dts": "^0.17.0",
+    "vue": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InPrintTobias/inprint-components.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InPrintTobias/inprint-components/issues"
+  },
+  "homepage": "https://github.com/InPrintTobias/inprint-components#readme"
+}
