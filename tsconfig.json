@@ -14,7 +14,7 @@
     "noEmit": true,
     "allowJs": true,
     "jsx": "preserve",
-    "typeRoots": ["./typings", "./node_modules/@types", "./path/to/inprint-components.d.ts"],
+    "typeRoots": ["./typings", "./node_modules/@types", "./path/to/inprint-components.ts"],
 
     /* Linting */
     "strict": true,

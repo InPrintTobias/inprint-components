@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [vue(), dts()],
   build: {
     lib: {
-      entry: "src/index.ts",
+      entry: "./src/index.ts",
       name: "InPrint Components",
       fileName: "inprint-components",
     },
